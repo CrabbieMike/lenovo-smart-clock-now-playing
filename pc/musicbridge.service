@@ -1,0 +1,11 @@
+[Unit]
+Description=Music Clock bridge (MPRIS over HTTP for the Lenovo clock)
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/python3 %h/.local/bin/musicbridge.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
