@@ -14,7 +14,7 @@ The clock runs a small launcher app (`app/`) that polls a tiny HTTP server on th
 
 ## Setup
 
-1. **Get ADB on the clock.** Mine is modded with ADB over Wi-Fi.
+1. **Get ADB on the clock.** Mine is modded with ADB over Wi-Fi https://github.com/SychPL/smartclock2tool
 2. **Set your weather location.** Edit the latitude/longitude in `ClockActivity.fetchWeather()`. Weather comes from [Open-Meteo](https://open-meteo.com) (free, no API key).
 3. **Build** (needs the Android SDK and Android Studio's JDK; no Gradle):
    ```sh
